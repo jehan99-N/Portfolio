@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+Sitemap: https://jehan-portfolio.com/sitemap.xml
+
+# Crawl delay (milliseconds)
+Crawl-delay: 2

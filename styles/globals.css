@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajwal:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.container-custom {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.button-primary {
+  @apply px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors;
+}
+
+.button-secondary {
+  @apply px-6 py-3 bg-secondary text-white rounded-lg font-semibold hover:bg-slate-800 transition-colors;
+}
