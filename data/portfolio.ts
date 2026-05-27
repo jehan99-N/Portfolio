@@ -7,8 +7,8 @@ export const portfolioData = {
     phone: '0796186967',
     location: 'Amman, Jordan',
     birthDate: '1999/09/03',
-    linkedin: 'jehan_abujaleel',
-    github: 'jehan_abujaleel',
+    linkedin: 'https://www.linkedin.com/in/jehan-abujaleel-7198671b9/',
+    github: 'https://github.com/jehan99-N',
   },
   summary: `Results-driven Frontend Developer with 5+ years of experience building scalable and responsive web applications. Proficient in React.js, Next.js, Redux, TypeScript, and REST APIs, with a strong background in UI/UX optimization. Proven ability to deliver high-quality projects ahead of deadlines, integrate with backend systems, and collaborate effectively with cross-functional teams. Passionate about clean code, performance optimization, and modern frontend architectures.`,
   
