@@ -32,10 +32,27 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-semibold mb-4">Follow</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href={`https://linkedin.com/in/${portfolioData.personal.linkedin}`} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a></li>
-              <li><a href={`https://github.com/${portfolioData.personal.github}`} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
-            </ul>
+            <ul className="space-y-2 text-gray-400"><li>
+              <a
+                href={portfolioData.personal.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                LinkedIn
+              </a>
+            </li>
+
+              <li>
+                <a
+                  href={portfolioData.personal.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  GitHub
+                </a>
+              </li></ul>
           </div>
         </div>
         <div className="border-t border-gray-700 pt-8">
