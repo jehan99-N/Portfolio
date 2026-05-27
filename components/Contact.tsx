@@ -69,10 +69,10 @@ export default function Contact() {
                 <div>
                   <p className="font-semibold text-secondary">Social Media</p>
                   <div className="flex gap-4 mt-2">
-                    <a href={`https://linkedin.com/in/${portfolioData.personal.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
+                    <a href={portfolioData.personal.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
                       LinkedIn
                     </a>
-                    <a href={`https://github.com/${portfolioData.personal.github}`} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
+                    <a href={portfolioData.personal.github} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
                       GitHub
                     </a>
                   </div>
