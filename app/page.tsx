@@ -11,7 +11,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Jehan Abujaleel - Frontend Developer Portfolio',
-  description: 'Explore my professional portfolio showcasing 4+ years of experience in React, Next.js, and modern frontend development.',
+  description: 'Explore my professional portfolio showcasing 5+ years of experience in React, Next.js, and modern frontend development.',
 };
 
 export const generateStaticParams = () => [];

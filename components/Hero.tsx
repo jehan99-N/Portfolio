@@ -19,27 +19,27 @@ export default function Hero() {
           <div>
             <span className="text-primary font-semibold">Welcome to my portfolio</span>
             <h1 className="text-5xl md:text-6xl font-bold text-secondary mt-2 mb-6">
-              Hi, I'm <span className="text-primary">Jehan</span>
+              Hi, I&apos;m <span className="text-primary">Jehan</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              A results-driven Frontend Developer with 4+ years of experience building scalable and responsive web applications. Specializing in React, Next.js, and modern frontend architectures.
+              A results-driven Frontend Developer with 5+ years of experience building scalable and responsive web applications. Specializing in React, Next.js, and modern frontend architectures.
             </p>
             <div className="flex gap-4">
               <a href="#contact" className="button-primary">
-                Let's Work Together
+                Let&apos;s Work Together
               </a>
               <button onClick={handleDownloadCV} className="button-secondary">
                 Download CV
               </button>
             </div>
           </div>
-          <div>
-            <div className="rounded-lg shadow-2xl overflow-hidden">
+          <div className="flex flex-col items-center md:items-end">
+            <div className="w-full max-w-[300px] md:max-w-[380px] rounded-lg shadow-2xl overflow-hidden">
               <Image
                 src="/img-cv.jpeg"
                 alt="Jehan Abujaleel"
-                width={600}
-                height={600}
+                width={400}
+                height={400}
                 className="w-full h-auto object-cover"
                 priority
               />

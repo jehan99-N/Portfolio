@@ -7,7 +7,7 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <div className="container-custom flex justify-between items-center h-16">
         <Link href="/" className="text-2xl font-bold text-primary">
-          Jehan.dev
+          Jehan.Abujaleel
         </Link>
         <nav className="hidden md:flex gap-8">
           <Link href="#about" className="hover:text-primary transition-colors">About</Link>

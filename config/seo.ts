@@ -3,7 +3,7 @@
 
 export const defaultSEOConfig = {
   title: 'Jehan Abujaleel - Frontend Developer',
-  description: 'Results-driven Frontend Developer with 4+ years of experience building scalable and responsive web applications using React, Next.js, TypeScript, and modern frontend architectures.',
+  description: 'Results-driven Frontend Developer with 5+ years of experience building scalable and responsive web applications using React, Next.js, TypeScript, and modern frontend architectures.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://jehan-portfolio.com',
   ogImage: {
     url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://jehan-portfolio.com'}/og-image.png`,

@@ -2,7 +2,7 @@ export const portfolioData = {
   personal: {
     name: 'Jehan Abujaleel',
     title: 'Frontend Developer',
-    bio: 'Results-driven Frontend Developer with 4+ years of experience building scalable and responsive web applications.',
+    bio: 'Results-driven Frontend Developer with 5+ years of experience building scalable and responsive web applications.',
     email: 'jehanabujaleel@gmail.com',
     phone: '0796186967',
     location: 'Amman, Jordan',
@@ -10,7 +10,7 @@ export const portfolioData = {
     linkedin: 'jehan_abujaleel',
     github: 'jehan_abujaleel',
   },
-  summary: `Results-driven Frontend Developer with 4+ years of experience building scalable and responsive web applications. Proficient in React.js, Next.js, Redux, TypeScript, and REST APIs, with a strong background in UI/UX optimization. Proven ability to deliver high-quality projects ahead of deadlines, integrate with backend systems, and collaborate effectively with cross-functional teams. Passionate about clean code, performance optimization, and modern frontend architectures.`,
+  summary: `Results-driven Frontend Developer with 5+ years of experience building scalable and responsive web applications. Proficient in React.js, Next.js, Redux, TypeScript, and REST APIs, with a strong background in UI/UX optimization. Proven ability to deliver high-quality projects ahead of deadlines, integrate with backend systems, and collaborate effectively with cross-functional teams. Passionate about clean code, performance optimization, and modern frontend architectures.`,
   
   experience: [
     {

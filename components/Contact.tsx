@@ -8,8 +8,23 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const form = e.currentTarget as HTMLFormElement;
+    const formData = new FormData(form);
+    const name = String(formData.get('name') || '').trim();
+    const email = String(formData.get('email') || '').trim();
+    const message = String(formData.get('message') || '').trim();
+
+    const subject = encodeURIComponent(`Portfolio Contact from ${name || 'Website Visitor'}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    );
+
+    window.location.href = `mailto:${portfolioData.personal.email}?subject=${subject}&body=${body}`;
+
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
+    form.reset();
   };
 
   return (
@@ -17,7 +32,7 @@ export default function Contact() {
       <div className="container-custom">
         <h2 className="text-4xl font-bold text-secondary mb-4 text-center">Get In Touch</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-          Have a project in mind? Let's collaborate and bring your ideas to life.
+          Have a project in mind? Let&apos;s collaborate and bring your ideas to life.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -69,7 +84,7 @@ export default function Contact() {
           <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-lg shadow-md">
             {submitted && (
               <div className="bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-lg">
-                ✓ Message sent successfully! I'll get back to you soon.
+                ✓ Message sent successfully! I&apos;ll get back to you soon.
               </div>
             )}
             <div>

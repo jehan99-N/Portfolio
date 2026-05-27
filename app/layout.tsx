@@ -4,7 +4,7 @@ import '../styles/globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://jehan-portfolio.com'),
   title: 'Jehan Abujaleel - Frontend Developer',
-  description: 'Results-driven Frontend Developer with 4+ years of experience building scalable and responsive web applications using React, Next.js, TypeScript, and modern frontend architectures.',
+  description: 'Results-driven Frontend Developer with 5+ years of experience building scalable and responsive web applications using React, Next.js, TypeScript, and modern frontend architectures.',
   keywords: [
     'Frontend Developer',
     'React',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: 'https://jehan-portfolio.com',
     siteName: 'Jehan Portfolio',
     title: 'Jehan Abujaleel - Frontend Developer',
-    description: 'Results-driven Frontend Developer with 4+ years of experience building scalable and responsive web applications.',
+    description: 'Results-driven Frontend Developer with 5+ years of experience building scalable and responsive web applications.',
     images: [
       {
         url: '/og-image.png',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Jehan Abujaleel - Frontend Developer',
-    description: 'Results-driven Frontend Developer with 4+ years of experience.',
+    description: 'Results-driven Frontend Developer with 5+ years of experience.',
     creator: '@jehan_abujaleel',
     images: ['/og-image.png'],
   },
